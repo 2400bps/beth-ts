@@ -8,11 +8,10 @@
     "watch": "cross-env NODE_ENV=development webpack --watch --mode development --display-error-details --progress --color",
     "build:dev": "cross-env NODE_ENV=development webpack --mode development --display-error-details --progress --color",
     "build:prod": "cross-env NODE_ENV=production webpack --mode production --progress --color",
-"prepare": "# npm run lint && npm run build:dev"
+    "prepare": "# npm run lint && npm run build:dev"
   },
   "main": "./src/index.js",
   "dependencies": {
-    "@types/es6-promise": "^3.3.0",
     "axios": "^0.18.0",
     "bignumber.js": "^7.2.1",
     "bn.js": "^4.11.8",
